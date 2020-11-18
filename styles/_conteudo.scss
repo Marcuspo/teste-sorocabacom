@@ -1,36 +1,54 @@
 .conteudo-pagina {
   @include flexCenter();
-  background: url("../img/background-principal/background-principal.png")
-    no-repeat;
-  opacity: 0.85;
+  background: url("../img/background-principal/background-principal.png") center
+    top repeat-x;
+  height: 1080px;
+
+  .imagem-fundo {
+    background: url("../img/imagem-card-principal/background-card-principal.svg")
+      no-repeat transparent padding-box center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 1080px;
+    width: 586px;
+    opacity: 1;
+    box-shadow: 0px 3px 6px #00000099;
+    opacity: 1;
+  }
+
+  .imagem-card-principal {
+    width: 526px;
+    height: 754px;
+    margin: 0px;
+  }
 
   .texto-imagem-central {
+    padding-top: 12px;
+    padding-bottom: 22px;
+    width: 230px;
+    height: 20px;
     text-align: center;
-    padding-left: 5px;
     font: normal normal bold 15px/18px Open Sans;
     letter-spacing: 0px;
     color: #ffffff;
   }
 
-  .imagem-fundo {
-    background: url("../img/imagem-card-principal/background-card-principal.svg")
-      no-repeat;
-  }
-
-  .imagem-card-principal {
-    padding-left: 5px;
+  .conteudo-apos-imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .texto-apos-imagem {
-    text-align: center;
+    width: 271px;
+    height: 121px;
+    padding-top: 28px;
+    padding-bottom: 14px;
     font: normal normal normal 20px/21px Open Sans;
     letter-spacing: 0px;
     color: #f0f0f2;
     text-shadow: 0px 3px 6px #00000029;
-    width: 271px;
-    height: 121px;
-  }
-  .conteudo-apos-imagem {
-    @include flexCenter();
+    opacity: 1;
   }
 }
