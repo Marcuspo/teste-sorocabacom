@@ -129,6 +129,12 @@ header .imagem-cabecalho {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .segundo-conteudo .item, .segundo-conteudo .item-meio {
@@ -138,6 +144,13 @@ header .imagem-cabecalho {
   -webkit-box-shadow: 0px 3px 6px #ffffff63;
           box-shadow: 0px 3px 6px #ffffff63;
   border-radius: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .segundo-conteudo .item-meio {
@@ -152,12 +165,16 @@ header .imagem-cabecalho {
   border-radius: 99px;
   width: 379px;
   height: 525px;
-  padding-top: -25px;
+}
+
+.segundo-conteudo .texto-depois-imagem {
+  width: 326px;
+  height: 153px;
+  padding-left: 36px;
+  padding-right: 24.5px;
 }
 
 .segundo-conteudo .texto-personas {
-  width: 326px;
-  height: 153px;
   text-align: left;
   font: normal normal normal 20px/25px Open Sans;
   letter-spacing: 0px;
@@ -197,12 +214,18 @@ header .imagem-cabecalho {
 }
 
 .container-formulario .texto-formulario-secundario {
+  padding-top: 41px;
+  padding-bottom: 51px;
   width: 746px;
   height: 77px;
   text-align: left;
   font: normal normal normal 20px/25px Open Sans;
   letter-spacing: 0px;
   color: #363636;
+}
+
+.container-formulario .form-com-botoes {
+  padding-top: 51px;
 }
 
 .container-formulario .formulario {

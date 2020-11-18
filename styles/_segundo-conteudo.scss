@@ -5,7 +5,7 @@
   opacity: 1;
 
   .menu {
-    display: flex;
+    @include flexCenter();
   }
 
   .item {
@@ -14,6 +14,8 @@
     background: #ffffff;
     box-shadow: 0px 3px 6px #ffffff63;
     border-radius: 27px;
+    display: flex;
+    flex-direction: column;
   }
 
   .item-meio {
@@ -28,12 +30,16 @@
     border-radius: 99px;
     width: 379px;
     height: 525px;
-    padding-top: -25px;
+  }
+
+  .texto-depois-imagem {
+    width: 326px;
+    height: 153px;
+    padding-left: 36px;
+    padding-right: 24.5px;
   }
 
   .texto-personas {
-    width: 326px;
-    height: 153px;
     text-align: left;
     font: normal normal normal 20px/25px Open Sans;
     letter-spacing: 0px;
