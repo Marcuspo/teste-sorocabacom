@@ -15,4 +15,26 @@
     box-shadow: 0px 3px 6px #ffffff63;
     border-radius: 27px;
   }
+
+  .item-meio {
+    @extend .item;
+    border-radius: 31px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .imagem-personas {
+    box-shadow: 0px 3px 6px #ff060629;
+    border-radius: 99px;
+    width: 379px;
+    height: 525px;
+    padding-top: -25px;
+  }
+
+  .texto-personas {
+    text-align: left;
+    font: normal normal normal 20px/25px Open Sans;
+    letter-spacing: 0px;
+    color: #363636;
+  }
 }

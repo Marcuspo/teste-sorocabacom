@@ -93,13 +93,35 @@ header .texto-cabecalho {
   display: flex;
 }
 
-.segundo-conteudo .item {
+.segundo-conteudo .item, .segundo-conteudo .item-meio {
   width: 387px;
   height: 613px;
   background: #ffffff;
   -webkit-box-shadow: 0px 3px 6px #ffffff63;
           box-shadow: 0px 3px 6px #ffffff63;
   border-radius: 27px;
+}
+
+.segundo-conteudo .item-meio {
+  border-radius: 31px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.segundo-conteudo .imagem-personas {
+  -webkit-box-shadow: 0px 3px 6px #ff060629;
+          box-shadow: 0px 3px 6px #ff060629;
+  border-radius: 99px;
+  width: 379px;
+  height: 525px;
+  padding-top: -25px;
+}
+
+.segundo-conteudo .texto-personas {
+  text-align: left;
+  font: normal normal normal 20px/25px Open Sans;
+  letter-spacing: 0px;
+  color: #363636;
 }
 
 body {
