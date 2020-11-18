@@ -118,10 +118,156 @@ header .texto-cabecalho {
 }
 
 .segundo-conteudo .texto-personas {
+  width: 326px;
+  height: 153px;
   text-align: left;
   font: normal normal normal 20px/25px Open Sans;
   letter-spacing: 0px;
   color: #363636;
+}
+
+.container-formulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: linear-gradient(143deg, #7dede2 0%, #58b790 100%);
+}
+
+.container-formulario .texto-formulario-principal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  text-align: center;
+  font: normal normal bold 35px/46px Montserrat;
+  letter-spacing: -0.88px;
+  color: #63c7a9;
+  width: 246px;
+  height: 43px;
+}
+
+.container-formulario .texto-formulario-secundario {
+  width: 746px;
+  height: 77px;
+  text-align: left;
+  font: normal normal normal 20px/25px Open Sans;
+  letter-spacing: 0px;
+  color: #363636;
+}
+
+.container-formulario .formulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1082px;
+  height: 832px;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 0px 6px #0000004d;
+          box-shadow: 0px 0px 6px #0000004d;
+}
+
+.container-formulario .botao-nome-e-email {
+  width: 249px;
+  height: 48px;
+  border: 1px solid #363636;
+  margin-bottom: 40px;
+}
+
+.container-formulario .botao-nome-e-email ::-webkit-input-placeholder {
+  width: 108px;
+  height: 20px;
+  text-align: left;
+  font: normal normal normal 18px/30px Open Sans;
+  letter-spacing: 0px;
+  color: #363636;
+  text-transform: capitalize;
+}
+
+.container-formulario .botao-nome-e-email :-ms-input-placeholder {
+  width: 108px;
+  height: 20px;
+  text-align: left;
+  font: normal normal normal 18px/30px Open Sans;
+  letter-spacing: 0px;
+  color: #363636;
+  text-transform: capitalize;
+}
+
+.container-formulario .botao-nome-e-email ::-ms-input-placeholder {
+  width: 108px;
+  height: 20px;
+  text-align: left;
+  font: normal normal normal 18px/30px Open Sans;
+  letter-spacing: 0px;
+  color: #363636;
+  text-transform: capitalize;
+}
+
+.container-formulario .botao-nome-e-email ::placeholder {
+  width: 108px;
+  height: 20px;
+  text-align: left;
+  font: normal normal normal 18px/30px Open Sans;
+  letter-spacing: 0px;
+  color: #363636;
+  text-transform: capitalize;
+}
+
+.container-formulario .mensagem-formulario {
+  width: 505px;
+  height: 197px;
+  border: 0.1px transparent #363636;
+  margin-bottom: 49px;
+}
+
+.container-formulario .mensagem-formulario ::-webkit-input-placeholder {
+  font-size: 20px;
+}
+
+.container-formulario .mensagem-formulario :-ms-input-placeholder {
+  font-size: 20px;
+}
+
+.container-formulario .mensagem-formulario ::-ms-input-placeholder {
+  font-size: 20px;
+}
+
+.container-formulario .mensagem-formulario ::placeholder {
+  font-size: 20px;
+}
+
+.container-formulario .botao-formulario-enviar {
+  width: 249px;
+  height: 48px;
+  background: #63c7a9;
+  text-align: center;
+  font: normal normal normal 18px/30px Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
 }
 
 body {
