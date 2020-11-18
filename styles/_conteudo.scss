@@ -1,6 +1,7 @@
 .conteudo-pagina {
   @include flexCenter();
-  background-image: url("../img/background-principal/background-principal.png");
+  background: url("../img/background-principal/background-principal.png")
+    no-repeat;
   opacity: 0.85;
 
   .texto-imagem-central {
@@ -12,7 +13,8 @@
   }
 
   .imagem-fundo {
-    background-image: url("../img/imagem-card-principal/background-card-principal.svg");
+    background: url("../img/imagem-card-principal/background-card-principal.svg")
+      no-repeat;
   }
 
   .imagem-card-principal {

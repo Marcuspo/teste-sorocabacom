@@ -1,12 +1,24 @@
 header {
   @include flexCenter();
+  flex-direction: row;
   background: #363636 0% 0% no-repeat padding-box;
-  height: 109px;
+
   .texto-cabecalho {
     font: normal normal bold 23px/36px Montserrat;
+    display: flex;
     letter-spacing: 0.68px;
     color: #ffffff;
     text-transform: uppercase;
     opacity: 1;
+
+    width: 259px;
+    height: 45px;
+  }
+
+  .imagem-cabecalho {
+    top: 0px;
+    left: 749px;
+    width: 109px;
+    height: 109px;
   }
 }

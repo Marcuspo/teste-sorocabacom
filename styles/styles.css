@@ -8,16 +8,31 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   background: #363636 0% 0% no-repeat padding-box;
-  height: 109px;
 }
 
 header .texto-cabecalho {
   font: normal normal bold 23px/36px Montserrat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   letter-spacing: 0.68px;
   color: #ffffff;
   text-transform: uppercase;
   opacity: 1;
+  width: 259px;
+  height: 45px;
+}
+
+header .imagem-cabecalho {
+  top: 0px;
+  left: 749px;
+  width: 109px;
+  height: 109px;
 }
 
 .conteudo-pagina {
@@ -30,7 +45,7 @@ header .texto-cabecalho {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url("../img/background-principal/background-principal.png");
+  background: url("../img/background-principal/background-principal.png") no-repeat;
   opacity: 0.85;
 }
 
@@ -43,7 +58,7 @@ header .texto-cabecalho {
 }
 
 .conteudo-pagina .imagem-fundo {
-  background-image: url("../img/imagem-card-principal/background-card-principal.svg");
+  background: url("../img/imagem-card-principal/background-card-principal.svg") no-repeat;
 }
 
 .conteudo-pagina .imagem-card-principal {
