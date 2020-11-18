@@ -47,10 +47,11 @@ header .texto-cabecalho {
 }
 
 .conteudo-pagina .imagem-card-principal {
-  padding-left: 15px;
+  padding-left: 5px;
 }
 
 .conteudo-pagina .texto-apos-imagem {
+  text-align: center;
   font: normal normal normal 20px/21px Open Sans;
   letter-spacing: 0px;
   color: #f0f0f2;
@@ -69,6 +70,36 @@ header .texto-cabecalho {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.segundo-conteudo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 1147px;
+  background: #363636;
+  opacity: 1;
+}
+
+.segundo-conteudo .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.segundo-conteudo .item {
+  width: 387px;
+  height: 613px;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 3px 6px #ffffff63;
+          box-shadow: 0px 3px 6px #ffffff63;
+  border-radius: 27px;
 }
 
 body {

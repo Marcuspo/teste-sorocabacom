@@ -1,0 +1,18 @@
+.segundo-conteudo {
+  @include flexCenter();
+  height: 1147px;
+  background: #363636;
+  opacity: 1;
+
+  .menu {
+    display: flex;
+  }
+
+  .item {
+    width: 387px;
+    height: 613px;
+    background: #ffffff;
+    box-shadow: 0px 3px 6px #ffffff63;
+    border-radius: 27px;
+  }
+}
