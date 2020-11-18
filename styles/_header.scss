@@ -1,0 +1,12 @@
+header {
+  @include flexCenter();
+  background: #363636 0% 0% no-repeat padding-box;
+  height: 109px;
+  .texto-cabecalho {
+    font: normal normal bold 23px/36px Montserrat;
+    letter-spacing: 0.68px;
+    color: #ffffff;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+}

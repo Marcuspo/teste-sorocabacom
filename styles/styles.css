@@ -1,1 +1,27 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #363636 0% 0% no-repeat padding-box;
+  height: 109px;
+}
+
+header .texto-cabecalho {
+  font: normal normal bold 23px/36px Montserrat;
+  letter-spacing: 0.68px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+/*# sourceMappingURL=styles.css.map */
