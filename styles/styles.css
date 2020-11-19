@@ -330,4 +330,10 @@ header .imagem-cabecalho {
   text-transform: uppercase;
   opacity: 1;
 }
+
+.footer {
+  height: 410px;
+  background: #363636 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
 /*# sourceMappingURL=styles.css.map */
